@@ -1,0 +1,175 @@
+version: "3.1"
+nlu:
+  - intent: Pulled_Muscle
+    examples: |
+      - How do you treat a Pulled Muscle?
+      - what to do if my muscle is pulled?
+      - Which medicine to take if I got pulled muscle?
+      - How to cure a pulled muscle?
+  - intent: Rectal_bleeding
+    examples: |
+      - How do you treat Rectal Bleeding?
+      - what to do if i get a Rectal Bleeding?
+      - Which medicine to take if I get Rectal Bleeding?
+      - How to cure Rectal Bleeding?
+  - intent: Sun_Burn
+    examples: |
+      - How do you treat Sun Burn?
+      - what to do if i get a Sun Burn?
+      - Which medicine to take if I get Sun Burn?
+      - How to cure a Sun Burn?
+  - intent: Testicle_Pain
+    examples: |
+      - How do you treat Testicle Pain?
+      - what to do if i get a Testicle Pain?
+      - Which medicine to take if I get Testicle Pain?
+      - How to cure Testicle Pain?
+  - intent: Vertigo
+    examples: |
+      - How do you treat a Vertigo?
+      - what to do if i get a Vertigo?
+      - Which medicine to take if I get Vertigo?
+      - How to cure a Vertigo?
+  - intent: Normal_Bleeding
+    examples: |
+      - How do you treat bleeding?
+      - what to do if i get a Bleeding?
+      - Which medicine to take if I get bleeding?
+      - How to cure Bleeding?
+  - intent: Eye_Injury
+    examples: |
+      - How do you treat an eye Injury?
+      - what to do if i get a eye Injury?
+      - Which medicine to take if I injured my eye?
+      - How to cure injured eye?
+  - intent: Chemical_Burn
+    examples: |
+      - How do you treat a chemical burn?
+      - what to do if i get a Chemical Burn?
+      - Which medicine to take if I get burn due to chemicals?
+      - How to cure Chemical Burn?
+  - intent: Poison
+    examples: |
+      - How do you treat a Poison?
+      - what to do if i get Poison?
+      - Which medicine to take if I am poisoned?
+      - How to cure Poisoning?
+  - intent: Teeth
+    examples: |
+      - How do you treat broken Teeth ?
+      - what to do if my Teeth got broken?
+      - Which medicine to take if I get broken teeth?
+      - cure broken teeth?
+  - intent: Seizure
+    examples: |
+      - How do you treat a seizure?
+      - what to do if i get a seizure?
+      - Which medicine to take if I get seizure?
+      - How to cure seizure?
+  - intent: Head_Injury
+    examples: |
+      - How do you treat a head Injury?
+      - what to do if i get a Head Injury?
+      - Which medicine to take if I get injured in the head?
+      - How to cure Head Injury?
+  - intent: Fainting
+    examples: |
+      - How do you treat Faint?
+      - what to do if i feel like Fainting?
+      - Which medicine to take if I get a Faint?
+      - How to cure Fainting?
+  - intent: Headache
+    examples: |
+      - How do you treat a mild Headache?
+      - what to do if i get a mild Headache?
+      - Which medicine to take if I have a mild headache?
+      - How to cure a mild headache?
+  - intent: Cold
+    examples: |
+      - How do you treat a Cold?
+      - what to do if i get a mild Cold?
+      - Which medicine to take if I have a Cold?
+      - How to cure Cold?
+  - intent: Rash
+    examples: |
+      - How do you treat Rashes?
+      - what to do if i get a Rash?
+      - Which medicine to take if I have a Rash?
+      - How to cure Rash?
+  - intent: Snake_bite
+    examples: |
+      - How do you treat a snake bite?
+      - what to do if i get a snake bite?
+      - Which medicine to take if I get a snake bite?
+      - How to cure snake bite?
+  - intent: Animal_bite
+    examples: |
+      - How do you treat a animal bite?
+      - How do you treat a monkey bite?
+      - How do you treat a dog bite?
+      - what to do if i get a animal bite?
+      - Which medicine to take if I get a monkey bite?
+      - How to cure dog bite?
+      - i got bit by a dog
+  - intent: Drowning
+    examples: |
+      - What to do if someone is Drowning?
+      - what to do if someone drowned?
+      - What steps to take if i see a drowning person?
+      - How to help a drowning person?
+  - intent: CPR
+    examples: |
+      - How to give CPR??
+      - what to do in a CPR?
+      - What steps to take in a CPR??
+      - How to help a drowning person in CPR?
+  - intent: Fracture
+    examples: |
+      - How do you treat a Fracture?
+      - what to do if i get a Fracture?
+      - Which medicine to take if I have a Fracture?
+      - How to cure a Fracture?
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey
+      - Hi there
+      - Good morning
+      - Good afternoon
+      - Good evening
+  - intent: goodbye
+    examples: |
+      - Goodbye
+      - Bye
+      - See you later
+      - Take care
+      - Bye for now
+  - intent: mood
+    examples: |
+      - How are you feeling?
+      - What's your mood today?
+      - How's your day going?
+      - Are you okay?
+      - How are you today?
+      - Feeling good?
+  - intent: sad
+    examples: |
+      - I'm feeling sad
+      - I'm upset
+      - I'm feeling down
+      - I'm not feeling great
+      - I'm a little depressed
+  - intent: happy
+    examples: |
+      - I'm feeling happy
+      - I'm excited
+      - I'm in a good mood
+      - I'm feeling great
+      - Everything's going well
+  - intent: help_me
+    examples: |
+      - Can you help me?
+      - I need assistance.
+      - Can you assist me?
+      - I have a problem, can you help?

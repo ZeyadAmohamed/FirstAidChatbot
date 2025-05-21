@@ -1,0 +1,102 @@
+version: "3.1"
+intents:
+  # الاستفسارات الطبية
+  - Pulled_Muscle
+  - Rectal_bleeding
+  - Sun_Burn
+  - Testicle_Pain
+  - Vertigo
+  - Normal_Bleeding
+  - Eye_Injury
+  - Chemical_Burn
+  - Poison
+  - Teeth
+  - Seizure
+  - Head_Injury
+  - Fainting
+  - Headache
+  - Cold
+  - Rash
+  - Snake_bite
+  - Animal_bite
+  - Drowning
+  - CPR
+  - Fracture
+
+  # استفسارات عامة
+  - greet
+  - goodbye
+  - mood
+  - sad
+  - happy
+  - help_me
+
+responses:
+  # استجابات تحية
+  utter_greet:
+    - text: "Hi! How can I assist you today?"
+
+  # استجابة للمساعدة
+  utter_help_me:
+    - text: "Sure! What kind of help do you need? Are you looking for medical advice?"
+
+  # استجابات المزاج
+  utter_mood:
+    - text: "I'm glad to hear you're feeling happy! 😊"
+  utter_sad:
+    - text: "I'm sorry to hear that you're feeling down. Let me know how I can help."
+
+  # استجابات طبية
+  utter_Pulled_Muscle:
+    - text: "Rest the muscle and apply ice. If pain persists, consider taking pain relievers like ibuprofen."
+  utter_Rectal_bleeding:
+    - text: "You should seek medical help immediately if you experience rectal bleeding."
+  utter_Sun_Burn:
+    - text: "Apply aloe vera to the burned area and hydrate well. Avoid sun exposure."
+  utter_Testicle_Pain:
+    - text: "Rest and apply cold compresses to reduce swelling. Seek medical attention if pain is severe."
+  utter_Vertigo:
+    - text: "Lie down in a dark, quiet room. Avoid sudden head movements."
+  utter_Normal_Bleeding:
+    - text: "Apply pressure to the bleeding site with a clean cloth until the bleeding stops."
+  utter_Eye_Injury:
+    - text: "Rinse the eye with water and seek immediate medical attention."
+  utter_Chemical_Burn:
+    - text: "Rinse the affected area with water for at least 20 minutes and seek medical help."
+  utter_Poison:
+    - text: "Contact poison control immediately. Do not induce vomiting unless instructed."
+  utter_Teeth:
+    - text: "If teeth are broken, preserve any pieces and seek dental care immediately."
+  utter_Seizure:
+    - text: "Keep the person safe from injury and wait for the seizure to end. Seek medical attention."
+  utter_Head_Injury:
+    - text: "Rest and monitor for signs of concussion. Seek immediate medical help if symptoms worsen."
+  utter_Fainting:
+    - text: "If you feel faint, lie down and elevate your legs. Drink fluids if necessary."
+  utter_Headache:
+    - text: "Consider over-the-counter pain relievers like ibuprofen or acetaminophen."
+  utter_Cold:
+    - text: "Stay hydrated, increase vitamin C intake, and get plenty of rest."
+  utter_Rash:
+    - text: "Apply aloe vera or baking soda to the rash for relief."
+  utter_Snake_bite:
+    - text: "Seek medical help immediately, keep the victim calm, and immobilize the area."
+  utter_Animal_bite:
+    - text: "Clean the wound, apply an antibacterial ointment, and seek medical attention if necessary."
+  utter_Drowning:
+    - text: "Check for breathing and pulse. Begin CPR if needed."
+  utter_CPR:
+    - text: "For CPR, press firmly on the chest at the rate of 100-120 compressions per minute."
+  utter_Fracture:
+    - text: "Immobilize the affected area, apply ice, and seek medical care."
+
+  # وداع
+  utter_goodbye:
+    - text: "Goodbye! Have a nice day!"
+
+  # إذا كان المستخدم روبوت
+  utter_iamabot:
+    - text: "I am a bot, here to help you with first aid information."
+
+actions:
+  - action_save_conversation

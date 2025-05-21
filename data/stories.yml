@@ -1,0 +1,109 @@
+version: "3.1"
+stories:
+  # تحية المستخدم
+  - story: General greeting
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  # طلب مساعدة عامة
+  - story: Help request
+    steps:
+      - intent: help_me
+      - action: utter_help_me
+
+  # حالة المزاج الجيد
+  - story: Good mood response
+    steps:
+      - intent: happy
+      - action: utter_mood
+
+  # حالة المزاج الحزين
+  - story: Sad mood response
+    steps:
+      - intent: sad
+      - action: utter_sad
+
+  # إصابة العين
+  - story: Eye injury treatment
+    steps:
+      - intent: Eye_Injury
+      - action: utter_Eye_Injury
+
+  # علاج تمزق العضلات
+  - story: Pulled muscle recovery
+    steps:
+      - intent: Pulled_Muscle
+      - action: utter_Pulled_Muscle
+
+  # إصابة بالرأس
+  - story: Head Injury treatment
+    steps:
+      - intent: Head_Injury
+      - action: utter_Head_Injury
+
+  # إسعاف حالة غرق
+  - story: Drowning first aid
+    steps:
+      - intent: Drowning
+      - action: utter_Drowning
+
+  # إسعاف حالة تسمم
+  - story: Poisoning first aid
+    steps:
+      - intent: Poison
+      - action: utter_Poison
+
+  # إصابة في الأسنان
+  - story: Broken teeth treatment
+    steps:
+      - intent: Teeth
+      - action: utter_Teeth
+
+  # إسعاف حالة فقدان الوعي
+  - story: Fainting treatment
+    steps:
+      - intent: Fainting
+      - action: utter_Fainting
+
+  # العلاج الأولي لحروق الشمس
+  - story: Sun Burn recovery
+    steps:
+      - intent: Sun_Burn
+      - action: utter_Sun_Burn
+
+  # إسعاف حالة لدغة حية
+  - story: Snake bite treatment
+    steps:
+      - intent: Snake_bite
+      - action: utter_Snake_bite
+
+  # إسعاف حالة لدغة حيوان
+  - story: Animal bite treatment
+    steps:
+      - intent: Animal_bite
+      - action: utter_Animal_bite
+
+  # علاج الجرح العادي
+  - story: Normal bleeding treatment
+    steps:
+      - intent: Normal_Bleeding
+      - action: utter_Normal_Bleeding
+
+  # علاج الحروق الكيميائية
+  - story: Chemical burn treatment
+    steps:
+      - intent: Chemical_Burn
+      - action: utter_Chemical_Burn
+
+  # إسعاف حالة نوبة
+  - story: Seizure treatment
+    steps:
+      - intent: Seizure
+      - action: utter_Seizure
+
+  # علاج الكسر
+  - story: Fracture treatment
+    steps:
+      - intent: Fracture
+      - action: utter_Fracture
